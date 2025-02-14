@@ -7,13 +7,14 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
-<body>
-    <div id="todoListPage" class="page">
-        <h2 class="text-center mb-4">Список дел</h2>
-        <button class="btn btn-success mb-3" id="addTodoButton">Добавить дело</button>
+<body class="bg-dark text-light">
+    <div id="todoListPage" class="container mt-5">
+        <h2 class="text-center mb-4 text-primary">Список дел</h2>
+        <button 
+        class="btn btn-primary mb-3" id="addTodoButton">Добавить дело</button>
         <div class="table-responsive">
-            <table class="table table-hover table-bordered">
-                <thead class="table-dark">
+            <table class="table table-hover table-bordered table-dark">
+                <thead>
                     <tr>
                         <th>Название</th>
                         <th>Дата окончания</th>
@@ -24,8 +25,8 @@
                 <tbody>
                     <tr>
                         <td>Задача 1</td>
-                        <td>2023-10-15</td>
-                        <td><input type="checkbox" checked disabled></td>
+                        <td>2025-01-01</td>
+                        <td>Средняя</td>
                         <td>
                             <button class="btn btn-sm btn-warning me-2">Изменить</button>
                             <button class="btn btn-sm btn-danger">Удалить</button>
@@ -33,8 +34,8 @@
                     </tr>
                     <tr>
                         <td>Задача 2</td>
-                        <td>2023-10-20</td>
-                        <td><input type="checkbox" disabled></td>
+                        <td>2025-01-02</td>
+                        <td>Высокая</td>
                         <td>
                             <button class="btn btn-sm btn-warning me-2">Изменить</button>
                             <button class="btn btn-sm btn-danger">Удалить</button>
