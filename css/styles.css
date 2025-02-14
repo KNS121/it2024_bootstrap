@@ -1,0 +1,80 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #8b5cf6; /* Фиолетовое обрамление */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(139, 92, 246, 0.5);
+    background-color: #1e1e1e;
+}
+
+.login-container h2 {
+    color: #8b5cf6; /* Фиолетовый цвет заголовка */
+}
+
+.form-control, .btn {
+    background-color: #333;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+.btn-primary {
+    background-color: #8b5cf6;
+    border-color: #8b5cf6;
+}
+
+.btn-primary:hover {
+    background-color: #7c3aed;
+    border-color: #7c3aed;
+}
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.welcome-section {
+    max-width: 600px;
+    padding: 20px;
+}
+
+.welcome-section h1 {
+    color: #8b5cf6;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.welcome-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.action-buttons .btn {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.btn-secondary {
+    background-color: #333;
+    border-color: #444;
+}
+
+.btn-secondary:hover {
+    background-color: #444;
+    border-color: #555;
+}
