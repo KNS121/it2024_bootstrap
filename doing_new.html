@@ -9,20 +9,20 @@
 </head>
 <body>
   <div id="todoEditorPage" class="page container mt-5">
-    <h2 class="text-center mb-4 text-purple">Редактор дел</h2>
+    <h2 class="text-center mb-4 text-purple">Создать дело</h2>
     <form class="bg-dark p-4 rounded shadow">
         <div class="mb-3">
             <label for="todoTitle" class="form-label text-light">Название</label>
-            <input type="text" class="form-control bg-dark text-light" id="todoTitle" value="Старое название задачи" required>
+            <input type="text" class="form-control bg-dark text-light" id="todoTitle" required>
         </div>
         <div class="mb-3">
             <label for="todoDueDate" class="form-label text-light">Дата окончания</label>
-            <input type="date" class="form-control bg-dark text-light" id="todoDueDate" value="2023-10-15" required>
+            <input type="date" class="form-control bg-dark text-light" id="todoDueDate" required>
         </div>
         <div class="mb-3">
             <label class="form-label text-light">Важность</label>
             <div class="form-check">
-                <input type="radio" class="form-check-input" name="importance" id="todoHighImportance" value="high" checked>
+                <input type="radio" class="form-check-input" name="importance" id="todoHighImportance" value="high">
                 <label class="form-check-label text-light" for="todoHighImportance">Высокой Важности</label>
             </div>
             <div class="form-check">
